@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+body  {
+    margin: 0px auto;
+     background-color: bisque;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.app{
+    background-color: #FBFBFF;
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+   
+}
+.main{
+    margin-top: 30px;
+    margin-bottom:10px ;
+    width: 149px;
+    height: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    color: blueviolet;
+}
+.container{
+    text-align: center;
+    height: 200px;
+    width: 150px;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 155px;
+     background-color: black;
+       border-radius: 5px;
+}
+.digit{
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight:400;
+    font-style: normal;
+    height: 120px;
+    width: 117px;
+    color: #F94F6D;
+   display: flex;
+  align-items: center;    
+  justify-content: center;
+
+}
+.btn-div{
+   margin-top: 20px;
+   display: flex;
+  align-items: center;    
+  justify-content: space-around;
+   width: 155px;
+    height: 45px;
+     background-color: #FBFBFF;
+}
+.btn{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL
+}
+.new-game{
+    font-family: Cursed Timer ULiL;
+    font-weight: 700;
+    color: green;
+    width: 100px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+}
+
